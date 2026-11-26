@@ -2,7 +2,7 @@
 
 Scripts used to generate the numbers, tables and figures of the metagenomic sections (Methods 2.5, Results and Discussion 3.5, Supplementary Methods S1, Supplementary Results S2, Supplementary Tables and Figures) of the manuscript on nitrogen removal under sensor-guided aeration in a structured-bed reactor. Sample NGS1140_6S (day 595, end of Phase VI).
 
-The repository contains code only. Raw reads and the 25 bins are deposited in public repositories (accessions in the manuscript: [ACCESSION TO BE ADDED]). Intermediate files (assembly, BAM files, Kaiju output) are not included because of their size.
+The repository contains code only. Raw reads and the 25 bins are deposited in the European Nucleotide Archive (ENA) under BioProject accession PRJEB130422. Intermediate files (assembly, BAM files, Kaiju output) are not included because of their size.
 
 ## Layout
 
@@ -26,6 +26,10 @@ fastp v1.3.6; metaSPAdes v3.15.3; MetaBAT2, MaxBin2 and CONCOCT with DAS Tool v1
 - The scripts were written for a fixed directory layout (`~/sbria_anammox_shotgun/...`). Paths must be adjusted to reproduce the analyses.
 - Several scripts skip a step when its output file already exists; delete the output file to recompute it.
 - Comments inside the scripts are partly in Portuguese.
+
+## Citation
+
+Archived at Zenodo: https://doi.org/10.5281/zenodo.24547209 (this DOI always resolves to the latest version).
 
 ## License
 
